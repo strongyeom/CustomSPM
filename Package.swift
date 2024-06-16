@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "CustomSPM",
             targets: ["CustomSPM"]),
+        .library(name: "UIComponents", targets: ["CustomSPM"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

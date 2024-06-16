@@ -13,6 +13,7 @@ open class BaseLabel: UILabel {
         super.init(frame: .zero)
         self.text = "ExampleLabel"
     }
+    // add
     
     public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
