@@ -18,7 +18,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "CustomSPM"),
-        .target(name: "UIComponents", dependencies: []),
+        .target(name: "UIComponents"),
         .testTarget(
             name: "CustomSPMTests",
             dependencies: ["CustomSPM"]),
