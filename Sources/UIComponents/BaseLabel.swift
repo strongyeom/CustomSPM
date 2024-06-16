@@ -4,7 +4,7 @@
 //
 //  Created by 염성필 on 6/16/24.
 //
-
+#if canImport(UIKit)
 import Foundation
 import UIKit
 
@@ -19,3 +19,4 @@ open class BaseLabel: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
 }
+#endif
